@@ -4,9 +4,6 @@ import "./login.css";
 
 const Login = () => {
   const [showSignup, setShowSignup] = useState(false);
-  // const HandelSignin = () => {
-  //   return <Sigin />;
-  // }
   return (
     <div className="login">
       {showSignup ? (

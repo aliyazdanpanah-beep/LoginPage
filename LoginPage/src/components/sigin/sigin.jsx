@@ -33,7 +33,8 @@ const Sigin = () => {
           required
           name="secpass"
         />
-        <input id="SUBMIT" type="submit" value={"signUp an account"} />
+
+        <input id="SUBMIT" type="submit" value={"SignUp an account"} />
       </form>
     </div>
   );
