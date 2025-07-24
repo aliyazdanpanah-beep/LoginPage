@@ -10,12 +10,35 @@
   padding: 15px;
   width: 120px;
   margin: 0 15px;
-  gap: 10px;
   border-radius: 5px;
   background-color: #3c364c;
 }
 
 .wrapper {
   display: inline;
-  
+}
+
+.INP {
+  border: none;
+  outline: none;
+  padding: 15px;
+  width: 300px;
+  margin: 25px 0;
+  display: flex;
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+  background-color: #3c364c;
+}
+
+.pass {
+  border: none;
+  outline: none;
+  padding: 15px;
+  width: 300px;
+  margin: 25px 0;
+  display: flex;
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+  background-color: #3C364C;
+  /* background-color: #3c364c; */
 }
