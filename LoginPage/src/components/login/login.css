@@ -16,7 +16,7 @@
   display: block;
 }
 
-input {
+.Input {
   border: none;
   outline: none;
   padding: 15px;
