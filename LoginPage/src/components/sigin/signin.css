@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 
-.INP {
+.name {
   border: none;
   outline: none;
   padding: 15px;
-  width: 150px;
-  /* margin: 0 10px; */
+  width: 120px;
+  margin: 0 15px;
   gap: 10px;
   border-radius: 5px;
   background-color: #3c364c;
@@ -17,4 +17,5 @@
 
 .wrapper {
   display: inline;
+  
 }

@@ -6,14 +6,14 @@ const Sigin = () => {
       <form>
         <div className="wrapper">
           <input
-            className="INP"
+            className="name"
             type="text"
             placeholder="Firstname"
             required
             name="first"
           />
           <input
-            className="INP"
+            className="name"
             type="text"
             placeholder="Lastname"
             required

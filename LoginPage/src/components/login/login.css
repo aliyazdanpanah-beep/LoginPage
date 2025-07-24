@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -24,15 +23,15 @@
   margin: 25px 0;
   border-radius: 5px;
   backdrop-filter: blur(10px);
-  background-color: #3C364C;
+  background-color: #3c364c;
 }
 
 input:nth-child(5) {
-  background-color: #18112D;
+  background-color: #18112d;
 }
 
 #Sub {
-  background-color: #6D54B5;
+  background-color: #6d54b5;
 }
 
 .titel {
@@ -45,7 +44,7 @@ input:nth-child(5) {
   cursor: pointer;
   display: flex;
   font-size: 15px;
-  color: #6D54B5;
+  color: #6d54b5;
   text-decoration: underline;
   justify-content: left;
 }
