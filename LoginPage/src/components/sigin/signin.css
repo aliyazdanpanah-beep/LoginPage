@@ -18,7 +18,7 @@
   display: inline;
 }
 
-.INP {
+input {
   border: none;
   outline: none;
   padding: 15px;
@@ -30,15 +30,12 @@
   background-color: #3c364c;
 }
 
-.pass {
-  border: none;
-  outline: none;
-  padding: 15px;
-  width: 300px;
-  margin: 25px 0;
-  display: flex;
-  border-radius: 5px;
-  backdrop-filter: blur(10px);
-  background-color: #3C364C;
-  /* background-color: #3c364c; */
+#SUBMIT {
+  background-color: #6D54B5;
+}
+
+.tittil {
+  font-weight: normal;
+  font-size: 35px;
+  margin-bottom: 50px;
 }
