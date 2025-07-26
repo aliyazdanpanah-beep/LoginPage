@@ -2,7 +2,7 @@ import { useState } from "react";
 import Sigin from "../sigin/sigin";
 import "./login.css";
 
-const Login = () => {
+const Login = (props) => {
   const [showSignup, setShowSignup] = useState(false);
   return (
     <div className="login">
@@ -10,19 +10,19 @@ const Login = () => {
         <Sigin />
       ) : (
         <form className="form">
-          <h3 className="titel">Login an accunt</h3>
-          <input className="Input" type="email" placeholder="Email" required name="email" />
-          <input className="Input" type="text" placeholder="Username" required name="user" />
-          <input className="Input" type="password" placeholder="Password" required name="pass" />
+          <h3 className="titel"> {props.loginItem.titel} </h3>
+          <input className="Input" type="email" placeholder={props.loginItem.email} required name="email" />
+          <input className="Input" type="text" placeholder={props.loginItem.user} required name="user" />
+          <input className="Input" type="password" placeholder={props.loginItem.pass} required name="pass" />
           <p
             onClick={() => {
               setShowSignup(true);
             }}
             id="Create"
           >
-            create an accunt ?
+            {props.loginItem.p}
           </p>
-          <input className="Input" id="Sub" type="submit" value={"Login an accunt"} />
+          <input className="Input" id="Sub" type="submit" value={props.loginItem.sub} />
         </form>
       )}
     </div>

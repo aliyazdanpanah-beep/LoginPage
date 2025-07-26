@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div>
       {loginData.map((loginItem) => (
-        <Login key={loginItem.id} log={loginItem} />
+        <Login key={loginItem.id} loginItem={loginItem} />
       ))}
     </div>
   );
