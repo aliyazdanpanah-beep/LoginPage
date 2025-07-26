@@ -1,9 +1,28 @@
-import Login from "../../components/login/login"
+import Login from "../../components/login/login";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const Home = () => {
-  return (
-     <Login />
-  )
-}
+  const [loginData, setLoginData] = useState([]);
 
-export default Home
+  useEffect(() => {
+    axios
+      .get("http://localhost:8000/Login")
+      .then((res) => {
+        setLoginData(res.data.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching login data:", error);
+      });
+  }, []);
+
+  return (
+    <div>
+      {loginData.map((loginItem) => (
+        <Login key={loginItem.id} log={loginItem} />
+      ))}
+    </div>
+  );
+};
+
+export default Home;
