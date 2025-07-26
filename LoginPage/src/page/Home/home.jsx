@@ -9,7 +9,7 @@ const Home = () => {
     axios
       .get("http://localhost:8000/Login")
       .then((res) => {
-        setLoginData(res.data.data);
+        setLoginData(res.data.data);    
       })
       .catch((error) => {
         console.error("Error fetching login data:", error);

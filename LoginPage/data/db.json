@@ -12,5 +12,18 @@
         "sub": "Login an account"
       }
     ]
+  },
+  "Signin": {
+    "statuse": true,
+    "data": [
+      {
+        "id": 2,
+        "titel": "SignUp an account",
+        "email": "Email",
+        "user": "Username",
+        "pass": "Password",
+        "sub": "SignUp an account"
+      }
+    ]
   }
 }
