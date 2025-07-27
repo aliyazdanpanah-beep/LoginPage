@@ -6,7 +6,6 @@ import Home from "./page/Home/home";
 function App() {
   return (
     <div className="contaner">
-      <Navbar/>
       <Image/>
       <Home/>
     </div>
