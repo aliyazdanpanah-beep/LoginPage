@@ -1,9 +1,7 @@
-import "./image.css"
+import "./image.css";
 
 const Image = () => {
-  return (
-     <div className="image"></div>
-  )     
-}
+  return <div className="image"></div>;
+};
 
-export default Image
+export default Image;
